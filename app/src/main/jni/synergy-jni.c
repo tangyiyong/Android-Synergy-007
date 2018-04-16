@@ -154,6 +154,9 @@ static void build_key_translation_table () {
 	keyTranslation ['_'] = KEY_MINUS;
 	keyTranslation ['='] = KEY_EQUAL;
 	keyTranslation ['+'] = KEY_EQUAL;
+	keyTranslation ['{'] = KEY_LEFTBRACE;
+        keyTranslation ['}'] = KEY_RIGHTBRACE;
+        keyTranslation [';'] = KEY_SEMICOLON;
 	keyTranslation ['?'] = KEY_SLASH;
 	keyTranslation ['/'] = KEY_SLASH;
 	keyTranslation ['.'] = KEY_DOT;
